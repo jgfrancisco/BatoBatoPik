@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3C30111A9C41B800B8BF3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C30101A9C41B800B8BF3C /* AppDelegate.swift */; };
+		CC3C30131A9C41B800B8BF3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C30121A9C41B800B8BF3C /* ViewController.swift */; };
+		CC3C30161A9C41B800B8BF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C30141A9C41B800B8BF3C /* Main.storyboard */; };
+		CC3C30181A9C41B800B8BF3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C30171A9C41B800B8BF3C /* Images.xcassets */; };
+		CC3C301B1A9C41B800B8BF3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3C30191A9C41B800B8BF3C /* LaunchScreen.xib */; };
+		CC3C30271A9C41B800B8BF3C /* BatoBatoPikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3C30261A9C41B800B8BF3C /* BatoBatoPikTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3C30211A9C41B800B8BF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3C30031A9C41B800B8BF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3C300A1A9C41B800B8BF3C;
+			remoteInfo = BatoBatoPik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC3C300B1A9C41B800B8BF3C /* BatoBatoPik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatoBatoPik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3C300F1A9C41B800B8BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3C30101A9C41B800B8BF3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3C30121A9C41B800B8BF3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3C30151A9C41B800B8BF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3C30171A9C41B800B8BF3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC3C301A1A9C41B800B8BF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC3C30201A9C41B800B8BF3C /* BatoBatoPikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatoBatoPikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3C30251A9C41B800B8BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3C30261A9C41B800B8BF3C /* BatoBatoPikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatoBatoPikTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3C30081A9C41B800B8BF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3C301D1A9C41B800B8BF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3C30021A9C41B800B8BF3C = {
+			isa = PBXGroup;
+			children = (
+				CC3C300D1A9C41B800B8BF3C /* BatoBatoPik */,
+				CC3C30231A9C41B800B8BF3C /* BatoBatoPikTests */,
+				CC3C300C1A9C41B800B8BF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3C300C1A9C41B800B8BF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C300B1A9C41B800B8BF3C /* BatoBatoPik.app */,
+				CC3C30201A9C41B800B8BF3C /* BatoBatoPikTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3C300D1A9C41B800B8BF3C /* BatoBatoPik */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C30101A9C41B800B8BF3C /* AppDelegate.swift */,
+				CC3C30121A9C41B800B8BF3C /* ViewController.swift */,
+				CC3C30141A9C41B800B8BF3C /* Main.storyboard */,
+				CC3C30171A9C41B800B8BF3C /* Images.xcassets */,
+				CC3C30191A9C41B800B8BF3C /* LaunchScreen.xib */,
+				CC3C300E1A9C41B800B8BF3C /* Supporting Files */,
+			);
+			path = BatoBatoPik;
+			sourceTree = "<group>";
+		};
+		CC3C300E1A9C41B800B8BF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C300F1A9C41B800B8BF3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3C30231A9C41B800B8BF3C /* BatoBatoPikTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C30261A9C41B800B8BF3C /* BatoBatoPikTests.swift */,
+				CC3C30241A9C41B800B8BF3C /* Supporting Files */,
+			);
+			path = BatoBatoPikTests;
+			sourceTree = "<group>";
+		};
+		CC3C30241A9C41B800B8BF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C30251A9C41B800B8BF3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3C300A1A9C41B800B8BF3C /* BatoBatoPik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3C302A1A9C41B800B8BF3C /* Build configuration list for PBXNativeTarget "BatoBatoPik" */;
+			buildPhases = (
+				CC3C30071A9C41B800B8BF3C /* Sources */,
+				CC3C30081A9C41B800B8BF3C /* Frameworks */,
+				CC3C30091A9C41B800B8BF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatoBatoPik;
+			productName = BatoBatoPik;
+			productReference = CC3C300B1A9C41B800B8BF3C /* BatoBatoPik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3C301F1A9C41B800B8BF3C /* BatoBatoPikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3C302D1A9C41B800B8BF3C /* Build configuration list for PBXNativeTarget "BatoBatoPikTests" */;
+			buildPhases = (
+				CC3C301C1A9C41B800B8BF3C /* Sources */,
+				CC3C301D1A9C41B800B8BF3C /* Frameworks */,
+				CC3C301E1A9C41B800B8BF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3C30221A9C41B800B8BF3C /* PBXTargetDependency */,
+			);
+			name = BatoBatoPikTests;
+			productName = BatoBatoPikTests;
+			productReference = CC3C30201A9C41B800B8BF3C /* BatoBatoPikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3C30031A9C41B800B8BF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Athan;
+				TargetAttributes = {
+					CC3C300A1A9C41B800B8BF3C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CC3C301F1A9C41B800B8BF3C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CC3C300A1A9C41B800B8BF3C;
+					};
+				};
+			};
+			buildConfigurationList = CC3C30061A9C41B800B8BF3C /* Build configuration list for PBXProject "BatoBatoPik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3C30021A9C41B800B8BF3C;
+			productRefGroup = CC3C300C1A9C41B800B8BF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3C300A1A9C41B800B8BF3C /* BatoBatoPik */,
+				CC3C301F1A9C41B800B8BF3C /* BatoBatoPikTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3C30091A9C41B800B8BF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C30161A9C41B800B8BF3C /* Main.storyboard in Resources */,
+				CC3C301B1A9C41B800B8BF3C /* LaunchScreen.xib in Resources */,
+				CC3C30181A9C41B800B8BF3C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3C301E1A9C41B800B8BF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3C30071A9C41B800B8BF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C30131A9C41B800B8BF3C /* ViewController.swift in Sources */,
+				CC3C30111A9C41B800B8BF3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3C301C1A9C41B800B8BF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C30271A9C41B800B8BF3C /* BatoBatoPikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3C30221A9C41B800B8BF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3C300A1A9C41B800B8BF3C /* BatoBatoPik */;
+			targetProxy = CC3C30211A9C41B800B8BF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3C30141A9C41B800B8BF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3C30151A9C41B800B8BF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3C30191A9C41B800B8BF3C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3C301A1A9C41B800B8BF3C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3C30281A9C41B800B8BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3C30291A9C41B800B8BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3C302B1A9C41B800B8BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BatoBatoPik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC3C302C1A9C41B800B8BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BatoBatoPik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC3C302E1A9C41B800B8BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatoBatoPikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatoBatoPik.app/BatoBatoPik";
+			};
+			name = Debug;
+		};
+		CC3C302F1A9C41B800B8BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatoBatoPikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatoBatoPik.app/BatoBatoPik";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3C30061A9C41B800B8BF3C /* Build configuration list for PBXProject "BatoBatoPik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C30281A9C41B800B8BF3C /* Debug */,
+				CC3C30291A9C41B800B8BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3C302A1A9C41B800B8BF3C /* Build configuration list for PBXNativeTarget "BatoBatoPik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C302B1A9C41B800B8BF3C /* Debug */,
+				CC3C302C1A9C41B800B8BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3C302D1A9C41B800B8BF3C /* Build configuration list for PBXNativeTarget "BatoBatoPikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C302E1A9C41B800B8BF3C /* Debug */,
+				CC3C302F1A9C41B800B8BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3C30031A9C41B800B8BF3C /* Project object */;
+}
